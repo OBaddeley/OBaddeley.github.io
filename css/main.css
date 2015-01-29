@@ -11,6 +11,14 @@ a {
 	color: #434C52
 }
 
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
 
 /*******************************
 HEADER
@@ -18,10 +26,16 @@ HEADER
 header {
 	background-color: #DFFF5C;
 	text-align: center;
+	border-color: #434C52;
 }
 
 h1 {
 	font-family: 'Cantarell', sans-serif;
+}
+
+h2 { 
+font-family: 'Cantarell', sans-serif;
+font-size: 1.5em
 }
 
 
@@ -40,6 +54,12 @@ NAVIGATION
 ********************************/
 nav {
 	text-align: center;
+	background-color: #DFFF5C;
+}
+
+nav a {
+	background-color: #E2F4FF;
+	padding: 10px;
 }
 
 nav ul {
@@ -49,8 +69,13 @@ nav ul {
 
 nav li {
 	display: inline-block;
+	text-align: center;
 }
 
+
+nav a.selected, nav a:hover {
+	color: #000000;
+}
 
 
 /*******************************
@@ -60,6 +85,8 @@ footer {
 	background-color: #DFFF5C;
 	color: #434C52;
 	text-align: center;
+	clear: both;
+	padding-top: 50px;
 }
 
 
@@ -67,10 +94,20 @@ footer {
 /*******************************
 PAGE: HOME
 ********************************/
+#gallery {
+	list-style: none;
+}
 
+#gallery li {
+	float: left;
+	width:25%;
+	margin:4%;
+	background-color: #DFFF5C;
+}
 
-
-
+#intro {
+	text-align: center;
+}
 /*******************************
 PAGE: ABOUT
 ********************************/
