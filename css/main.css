@@ -1,0 +1,82 @@
+/*******************************
+BODY
+********************************/
+body {
+	background-color: #E2F4FF; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #434C52
+}
+
+
+/*******************************
+HEADER
+********************************/
+header {
+	background-color: #DFFF5C;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Cantarell', sans-serif;
+}
+
+
+
+/*******************************
+COLOURS
+********************************/
+
+
+
+
+
+
+/*******************************
+NAVIGATION
+********************************/
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	
+}
+
+nav li {
+	display: inline-block;
+}
+
+
+
+/*******************************
+FOOTER
+********************************/
+footer {
+	background-color: #DFFF5C;
+	color: #434C52;
+	text-align: center;
+}
+
+
+
+/*******************************
+PAGE: HOME
+********************************/
+
+
+
+
+/*******************************
+PAGE: ABOUT
+********************************/
+
+
+
+/*******************************
+PAGE: CONTACT
+********************************/
