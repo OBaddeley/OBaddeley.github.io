@@ -66,6 +66,7 @@ nav li {
 
 nav a.selected, nav a:hover {
 	color: #000000;
+	font-weight: bold;
 }
 
 
@@ -94,6 +95,11 @@ PAGE: HOME
 	width:25%;
 	margin:4%;
 	background-color: #FFFFCC;
+}
+
+#gallery li:hover {
+	color: #000000;
+	font-weight: bold;
 }
 
 #intro {
