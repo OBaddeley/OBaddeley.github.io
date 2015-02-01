@@ -118,6 +118,7 @@ PAGE: ABOUT
 ********************************/
 #rollerinfo {
 	text-align: center;
+	padding-top: 2%;
 }
 
 #steps {
@@ -131,9 +132,11 @@ PAGE: CONTACT
 
 #contactinfo {
 	text-align: center;
+	padding-top: 2%;
 }
 
 #secondary ul {
 	list-style: none;
+	padding: 2%, 0;
 }
 
