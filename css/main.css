@@ -1,9 +1,10 @@
 /*******************************
 BODY
 ********************************/
+
 body {
-	background-color: #cccccc; 
 	font-family: 'Open Sans', sans-serif;
+	background-color: #cccccc; 
 }
 
 a {
@@ -20,21 +21,23 @@ img {
 	max-width: 100%;
 }
 
+
 /*******************************
 HEADER
 ********************************/
 header {
 	background-color: #FFFFCC;
 	text-align: center;
-	margin: 0 0 30px 0;
+	margin: -15px 0 15px 0;
+	padding-top: 1%;
 }
 
 h1 {
-	font-family: 'Cantarell', sans-serif;
+	font-family:'Racing Sans One', sans-serif;
 }
 
 h2 { 
-font-family: 'Cantarell', sans-serif;
+font-family: 'Racing Sans One', sans-serif;
 font-size: 1.5em
 }
 
@@ -78,7 +81,8 @@ footer {
 	color: #434C52;
 	text-align: center;
 	clear: both;
-	padding-top: 30px;
+	padding: 1%;
+	margin: auto;
 }
 
 
@@ -114,6 +118,7 @@ PAGE: ABOUT
 
 #steps {
 	text-align: left;
+	margin: 5%;
 }
 
 /*******************************
