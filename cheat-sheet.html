@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SQL cheat sheet</title>
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href=<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> 
+		<link rel="stylesheet" href="css/cheatsheetstyle.css">
+
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html" id="logo">
+				<h1>SQL cheat sheet</h1>
+				<h2>All you need to know to master the basics of SQL</h2>	
+			</a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="cheat-sheet.html" class="selected">SQL cheat sheet</a></li>
+
+				</ul>
+			</nav>
+
+		</header>
+		<div id="contactinfo">
+		<section id="primary">
+			<h3>SQL do tell- Data types and value functions</h3>
+				<table id="table1">
+						<tr>
+							<th>Type</th>
+							<th>Examples</th>
+						</tr>
+						<tr>
+							<td>Exact Numerics</td>
+							<td>INTEGER, SMALLINT, BIGINT, NUMERIC, DECIMAL</td>
+						</tr>
+
+						<tr>
+							<td>Approximate Numerics</td>
+							<td>REAL, DOUBLE, PRECISION, FLOAT</td>
+						</tr>
+						<tr>
+							<td>Binary Strings</td>
+							<td>BINARY, BINARY, VARYING, BINARY LARGE OBJECT</td>
+						</tr>
+						<tr>
+							<td>Character Strings</td>
+							<td>BCHARACTER, CHARACTER VARYING (VARCHAR), CHARACTER LARGE OBJECT, NATIONAL CHARACTER, NATIONAL CHARACTER VARYING, NATIONAL CHARACTER LARGE OBJECT</td>
+						</tr>
+						<tr>
+							<td>Datetimes</td>
+							<td>DATE, TIME WITHOUT TIMEZONE, TIMESTAMP WITHOUT TIMEZONE, TIME WITH TIMEZONE, TIMESTAMP WITH TIMEZONE</td>
+						</tr>
+						<tr>
+							<td>Intervals</td>
+							<td>INTERVAL DAY, INTERVAL YEAR</td>
+						</tr>
+						<tr>
+							<td>Collection Types</td>
+							<td>ARRAY, MULTISET</td>
+						</tr>
+						<tr>
+							<td>Other Types</td>
+							<td>ROW, XML</td>
+						</tr>
+
+				</table>
+		</section>
+
+		<section id="quad">
+			<h3>SQL Value Functions</h3>
+				<table id="table4">
+						<tr>
+							<th>Function</th>
+							<th>Effect</th>
+						</tr>
+						<tr>
+							<td>SUBSTRING</td>
+							<td>Extracts a substring from a source string</td>
+						</tr>
+
+						<tr>
+							<td>SUBSTRING_REGEX</td>
+							<td>Extracts from a string the first occurrence of an XQuery regular expression pattern and returns one occurrence of the matching substring</td>
+						</tr>
+						<tr>
+							<td>UPPER</td>
+							<td>Converts a character string to all uppercase</td>
+						</tr>
+						<tr>
+							<td>LOWER</td>
+							<td>Converts a character string to all lowercase</td>
+						</tr>
+						<tr>
+							<td>TRIM</td>
+							<td>Trims off leading or trailing blanks</td>
+						</tr>
+						<tr>
+							<td>TRANSLATE</td>
+							<td>Transforms a source string from one character set to another</td>
+						</tr>
+						<tr>
+							<td>CONVERT</td>
+							<td>Transforms a source string from one character set to another</td>
+						</tr>
+						<tr>
+							<td>POSITION</td>
+							<td>Returns the starting position of a target string within a source string</td>
+						</tr>
+						<tr>
+							<td>CHARACTER_LENGTH</td>
+							<td>Returns the number of characters in a string</td>
+						</tr>
+						<tr>
+							<td>OCTET_LENGTH</td>
+							<td>Returns the number of octets (bytes) in a character string</td>
+						</tr>
+						<tr>
+							<td>EXTRACT</td>
+							<td>Extracts a single field from a datetime or interval</td>
+						</tr>
+						<tr>
+							<td>CURRENT_DATE</td>
+							<td>Returns the current date</td>
+						</tr>
+						<tr>
+							<td>CURRENT_TIME(p)</td>
+							<td>Returns the current time; (p) is precision of seconds</td>
+						</tr>
+						<tr>
+							<td>CURRENT_TIMESTAMP(p)</td>
+							<td>Returns the current date and the current time; (p) is precision of seconds</td>
+						</tr>
+
+				</table>
+		</section>
+
+		<section id="secondary">
+			<h3>SQL set functions</h3>
+				<table id="table2">
+						<tr>
+							<th>Function</th>
+							<th>Effect</th>
+						</tr>
+						<tr>
+							<td>COUNT</td>
+							<td>Returns the number of rows in the specified table</td>
+						</tr>
+
+						<tr>
+							<td>MAX</td>
+							<td>Returns the maximum value that occurs in the specified table</td>
+						</tr>
+						<tr>
+							<td>MIN</td>
+							<td>Returns the minimum value that occurs in the specified table</td>
+						</tr>
+						<tr>
+							<td>SUM</td>
+							<td>Adds up the values in a specified column</td>
+						</tr>
+						<tr>
+							<td>AVG</td>
+							<td>Returns the average of all the values in the specified column</td>
+						</tr>
+						<tr>
+							<td>Intervals</td>
+							<td>INTERVAL DAY, INTERVAL YEAR</td>
+						</tr>
+						<tr>
+							<td>Collection Types</td>
+							<td>ARRAY, MULTISET</td>
+						</tr>
+						<tr>
+							<td>Other Types</td>
+							<td>ROW, XML</td>
+						</tr>
+
+				</table>
+		</section>
+		<section id="tertiary">
+			<h3>SQL WHERE clause Predicates</h3>
+				<table id="table3">
+						<tr>
+							<th>Comparison predicate</th>
+							<th>Effect</th>
+						</tr>
+						<tr>
+							<td>=</td>
+							<td>Equal</td>
+						</tr>
+
+						<tr>
+							<td><></td>
+							<td>Not equal</td>
+						</tr>
+						<tr>
+							<td><</td>
+							<td>Less than</td>
+						</tr>
+						<tr>
+							<td><=</td>
+							<td>Less than or equal</td>
+						</tr>
+						<tr>
+							<td>></td>
+							<td>Greater than</td>
+						</tr>
+						<tr>
+							<td>>=</td>
+							<td>Greater than or equal</td>
+						</tr>
+		
+				</table>
+				<br></br>
+				<table id="table7">
+						<tr>
+						<th>Other predicates</th>
+						</tr>
+						
+						<tr>
+							<td>ALL, BETWEEN, DISTINCT,	EXISTS,	IN, LIKE, NOT IN, MATCH, NOT LIKE, NULL, OVERLAPS, SIMILAR, SOME,ANY, UNIQUE</td>
+							
+						</tr>
+					</table>
+
+		</section>
+		</div>
+			<footer>
+				<p>&copy; 2015 Olivia Baddeley.</p>
+			</footer>		
+	</body>
+</html>

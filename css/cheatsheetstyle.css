@@ -1,0 +1,116 @@
+/*******************************
+BODY
+********************************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #CCFFFF; 
+	 
+}
+
+a {
+	text-decoration: none;
+	color: #434C52
+}
+
+#logo {
+	text-align: center;
+	margin: auto 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/*******************************
+HEADER
+********************************/
+header {
+	background-color: #3399FF;
+	text-align: center;
+	margin: -15px 0 15px 0;
+	padding-top: 1%;
+}
+
+h1 {
+	font-family:'Racing Sans One', sans-serif;
+}
+
+h2 { 
+font-family: 'Racing Sans One', sans-serif;
+font-size: 1.5em
+}
+
+
+
+/*******************************
+NAVIGATION
+********************************/
+nav {
+	text-align: center;
+	background-color: #FFFFCC;
+}
+
+nav a {
+	background-color: #FFFFFF;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+nav ul {
+	list-style: none;
+	
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+}
+
+
+nav a.selected, nav a:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+
+/*******************************
+FOOTER
+********************************/
+footer {
+	background-color: #3399FF;
+	color: #434C52;
+	text-align: center;
+	clear: both;
+	padding: 1%;
+}
+
+
+
+
+
+/*******************************
+TABLE
+********************************/
+table {
+    width: 90%; 
+    margin:auto;
+    background-color: #f1f1c1;
+    border-spacing: 5px;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+table th {
+    color: white;
+    background-color: black;
+    text-align: left;;
+}
+
+div h3 {
+	text-align: center;
+}
