@@ -5,6 +5,7 @@ BODY
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #ffffff; 
+	text-align: center;
 }
 
 a {
@@ -29,8 +30,8 @@ img {
 }
 
 .wrapper {
-	height:100%;
-	width: 100%;
+	height:80%;
+	width: 80%;
 }
 
 
@@ -94,4 +95,18 @@ footer {
 	text-align: center;
 	clear: both;
 	padding: 1%;
+}
+
+#cvbody.p {
+	
+	max-width: 50%;
+}
+
+#cvbody {
+	position:center;
+}
+
+#hello {
+	margin-right: 10%;
+	margin-left: 10%;
 }
